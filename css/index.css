@@ -1,4 +1,5 @@
     body {
+         overflow: visible;
          padding: 0px;
          margin: 0px;
          width: 100%;
@@ -46,18 +47,20 @@
          flex-direction: row;
          width: 100%;
          height: auto;
-         flex-wrap: nowrap;
 
-    }
-
-    .box-container img {
-         margin: 0vw;
-         padding: 5vw;
     }
 
     .content {
          margin: 1vw;
          padding: 1vw;
+         max-width: 100%;
+         text-align: center;
+         flex-wrap: nowrap;
+    }
+
+    .logo_forside {
+         margin: 0px;
+         padding-top: 5%;
          max-width: 100%;
          text-align: center;
     }
