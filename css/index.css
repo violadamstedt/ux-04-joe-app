@@ -1,5 +1,4 @@
     body {
-         overflow: visible;
          padding: 0px;
          margin: 0px;
          width: 100%;
@@ -8,6 +7,7 @@
 
     .nav-wrap {
          width: 100%;
+         padding-bottom: 2vw;
     }
 
     .topnav {
@@ -17,6 +17,8 @@
          position: fixed;
          background-color: dimgrey;
          text-align: center;
+         border-left: 1px;
+         border-color: #FFFFFF;
     }
 
     .topnav a {
@@ -29,18 +31,18 @@
          padding: 3px 6px;
          text-decoration: none;
          font-size: 1em;
-         border-left: 1px;
-         border-color: #FFFFFF;
+
 
     }
 
     .topnav a:hover {
          background-color: #e9bdd8;
          color: dimgray;
+         border-left: 1px;
+         border-color: #FFFFFF;
     }
 
     .box-container {
-         overflow: hidden;
          margin: 0vw;
          padding: 0vw;
          display: flex;
@@ -63,4 +65,23 @@
          padding-top: 5%;
          max-width: 100%;
          text-align: center;
+    }
+
+    #bmc_cont.content h2 {
+         padding-top: 3vw;
+
+    }
+
+    #m_gruppe {
+
+         display: flex;
+         flex-direction: column;
+
+    }
+
+    #m_gruppe .content {
+         padding-top: 2vw;
+         margin: 0;
+         width: 25%;
+
     }
