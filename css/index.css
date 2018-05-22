@@ -1,7 +1,7 @@
     body {
          padding: 0px;
          margin: 0px;
-         height: 100%;
+         height: 80%;
     }
 
 
@@ -34,26 +34,21 @@
     }
 
     .topnav a:hover {
-         background-color: orangered;
-         color: #f2f2f2;
-    }
-
-    .topnav a:active {
-         background-color: #708090;
-         color: white;
+         background-color: #e9bdd8;
+         color: dimgray;
     }
 
     .box-container {
          overflow: hidden;
          display: flex;
-         align-content: space-between;
-         width: 50%;
+         flex-direction: row;
+         width: 80%;
          height: auto;
     }
 
     .content {
-         margin: 1vw;
-         padding: 5vw;
+         margin: 0vw;
+         padding: 6vw;
          text-align: center;
-
+         display:
     }
