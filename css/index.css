@@ -1,7 +1,7 @@
     body {
          padding: 0px;
          margin: 0px;
-         height: 80%;
+         max-width: 100%;
     }
 
 
@@ -39,16 +39,24 @@
     }
 
     .box-container {
-         overflow: hidden;
+         margin: 0vw;
+         padding: 1vw;
          display: flex;
          flex-direction: row;
-         width: 80%;
+         width: 100%;
          height: auto;
+         flex-wrap: nowrap;
+
+    }
+
+    .box-container img {
+         margin: 0vw;
+         padding: 5vw;
+         text-align: center;
     }
 
     .content {
          margin: 0vw;
-         padding: 6vw;
+         padding: 5vw;
          text-align: center;
-         display:
     }
