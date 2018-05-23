@@ -67,10 +67,12 @@
          text-align: center;
     }
 
-    #bmc_cont.content h2 {
-         padding-top: 3vw;
-
+    .bmc {
+         max-width: 100%;
+         height: auto;
     }
+
+
 
     #m_gruppe {
 
