@@ -2,6 +2,13 @@
          padding: 0px;
          margin: 0px;
          width: 100%;
+         font-family: 'Karla', sans-serif;
+    }
+
+    p {
+         width: 50%;
+         margin: auto;
+         text-align: left;
     }
 
 
@@ -67,17 +74,11 @@
          text-align: center;
     }
 
-    .bmc {
-         max-width: 100%;
-         height: auto;
-    }
-
-
 
     #m_gruppe {
 
          display: flex;
-         flex-direction: column;
+         flex-direction: row;
 
     }
 
@@ -86,4 +87,9 @@
          margin: 0;
          width: 25%;
 
+    }
+
+    .bmc img {
+         width: 60%;
+         height: auto;
     }
