@@ -93,3 +93,28 @@
          width: 60%;
          height: auto;
     }
+
+    .charette img {
+         width: 30%;
+         height: auto;
+    }
+
+    #ex_map img {
+         width: 80%;
+         height: auto;
+    }
+
+    #br_story img {
+         width: 80%;
+         height: auto;
+    }
+
+    #mining img {
+         width: 80%;
+         height: auto;
+    }
+
+    #aof .content {
+         text-align: center;
+
+    }
