@@ -1,0 +1,23 @@
+Forside
+
+research - 
+observationer - charette
+spøørgeskema - datamining
+intervies - målgruppe
+
+user experience -
+experience map
+brugerrejse og storyboard
+BMC
+NABC
+AOF-lister
+moodboard
+Feature Funktionaliteter
+
+Prototype -
+papir prototype
+logo prototype
+
+App-design
+
+SCRUM 

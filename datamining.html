@@ -6,30 +6,63 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="css/index.css">
+     <link rel="stylesheet" href="header.css">
+     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 
 </head>
 
 <body>
 
-     <div class="nav-wrap">
-          <div class="topnav">
-               <a href="index.html">Forside</a>
-               <a href="aof-lister.html">Aof-lister</a>
-               <a href="appdesign.html"> App-Design</a>
-               <a href="bmc.html">Buisness Model Canvas</a>
-               <a href="Brugerrejser-storyboards.html">Brugerrejser og Storyboards</a>
-               <a href="charette.html">Charette</a>
-               <a href="datamining.html">Datamining</a>
-               <a href="experiencemap.html">Experiencemap</a>
-               <a href="featuresfunktionaliteter.html">Feature Funktionaliteter</a>
-               <a href="m-beskrivelse.html">Målgruppe</a>
-               <a href="moodboard.html">Moodboard</a>
-               <a href="observationer.html">Observationer</a>
-               <a href="papirprototyping.html">Papir prototyping</a>
-               <a href="Research.html">Research</a>
-               <a href="SCRUM.html">SCRUM</a>
-          </div>
-     </div>
+
+     <header class="content_header">
+          <ul class="content_nav">
+               <li><a href="index.html">Forside</a></li>
+               <li class="dropdown">
+                    <a href="index.html">Research</a>
+                    <ul class="drop-nav">
+                         <li><a href="m-beskrivelse.html">Målgruppe</a></li>
+                         <li><a href="datamining.html">Datamining</a></li>
+                         <li><a href="charette.html">Charette</a></li>
+                         <li class="flyout">
+
+
+                         </li>
+                    </ul>
+               </li>
+               <li class="dropdown">
+                    <a href="index.html">User Experience</a>
+                    <ul class="drop-nav">
+                         <li><a href="experiencemap.html">Experience Map</a></li>
+                         <li><a href="Brugerrejser-storyboards.html">Storyboard</a></li>
+                         <li><a href="Brugerrejser-storyboards.html">Brugerrejse</a></li>
+                         <li class="flyout">
+                              <a href="#">BMC &amp; NABC</a>
+                              <ul class="flyout-nav">
+                                   <li><a href="bmc.html">BMC</a></li>
+                                   <li><a href="#">NABC</a></li>
+                              </ul>
+
+                         </li>
+                         <li><a href="aof-lister.html">AOF</a></li>
+                         <li><a href="moodboard.html">Moodboard</a></li>
+                         <li><a href="featuresfunktionaliteter.html">Feature</a></li>
+                    </ul>
+               </li>
+               <li class="dropdown">
+                    <a href="index.html">Prototype</a>
+                    <ul class="drop-nav">
+                         <li><a href="papirprototyping.html">Papir Prototyper</a></li>
+                         <li><a href="papirprototyping.html">App Design</a></li>
+                    </ul>
+               </li>
+               <li><a href="#">App Design</a></li>
+               <li><a href="SCRUM.html">SCRUM</a></li>
+          </ul>
+     </header>
+
+
      <div class="content" id="mining">
           <img src="imgs/datamining/datamining.png" alt="datamining">
           <p>Størstedelen er københavnere, og nogle vælger ‘andeby’ nok fordi de ikke vil videregive deres bopæl eller de gør grin.</p>
