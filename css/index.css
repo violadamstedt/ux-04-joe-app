@@ -17,7 +17,7 @@
 
     .content_header {
          align-self: center;
-         width: 80%;
+         width: 75%;
          min-height: 8%;
          padding: 1em 2em;
     }
@@ -179,4 +179,44 @@
     .papir-pro img {
          width: 45%;
          height: auto;
+    }
+
+
+    .nabc {
+         padding-top: 50px;
+         margin: auto;
+         display: flex;
+    }
+
+    .cont_N {
+         text-align: center;
+         width: 500px;
+         height: auto;
+         ;
+         background-color: darkgreen;
+         flex-grow: 1;
+    }
+
+    .cont_A {
+         text-align: center;
+         width: 500px;
+         height: auto;
+         background-color: red;
+         flex-grow: 1;
+    }
+
+    .cont_B {
+         text-align: center;
+         width: 500px;
+         height: auto;
+         background-color: steelblue;
+         flex-grow: 1;
+    }
+
+    .cont_C {
+         text-align: center;
+         width: 500px;
+         height: auto;
+         background-color: mediumpurple;
+         flex-grow: 1;
     }
