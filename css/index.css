@@ -117,11 +117,45 @@
     }
 
     .content {
-         margin: 1vw;
+         margin: auto;
          padding: 1vw;
          max-width: 100%;
          text-align: center;
          flex-wrap: nowrap;
+    }
+
+    .aof-box {
+         margin: auto;
+         display: flex;
+         justify-content: center;
+         padding: 20px;
+    }
+
+    .content_1 {
+         margin: auto;
+         width: 30%;
+         height: 300px;
+         text-align: center;
+         background-color: pink;
+
+
+    }
+
+    .content_2 {
+         margin: auto;
+         width: 30%;
+         height: 300px;
+         text-align: center;
+         background-color: pink;
+
+    }
+
+    .content_3 {
+         margin: auto;
+         width: 30%;
+         height: 300px;
+         text-align: center;
+         background-color: pink;
     }
 
     .logo_forside {
@@ -169,10 +203,6 @@
     #mining img {
          width: 80%;
          height: auto;
-    }
-
-    #aof .content {
-         text-align: center;
 
     }
 
@@ -193,7 +223,7 @@
          width: 500px;
          height: auto;
          ;
-         background-color: darkgreen;
+         background-color: lightgreen;
          flex-grow: 1;
     }
 
@@ -201,7 +231,7 @@
          text-align: center;
          width: 500px;
          height: auto;
-         background-color: red;
+         background-color: palevioletred;
          flex-grow: 1;
     }
 
