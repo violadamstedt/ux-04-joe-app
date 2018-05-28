@@ -165,21 +165,6 @@
          text-align: center;
     }
 
-
-    #m_gruppe {
-
-         display: flex;
-         flex-direction: row;
-
-    }
-
-    #m_gruppe .content {
-         padding-top: 2vw;
-         margin: 0;
-         width: 25%;
-
-    }
-
     .bmc img {
          width: 60%;
          height: auto;
@@ -249,4 +234,32 @@
          height: auto;
          background-color: mediumpurple;
          flex-grow: 1;
+    }
+
+    .rows {
+         width: 100%;
+         margin: 0;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+
+    }
+
+    .child_1 {
+         text-align: center;
+
+
+    }
+
+    .child_2 {
+         margin: auto;
+         padding: 0;
+
+    }
+
+    .child_3 {
+         margin: auto;
+         padding: 0;
+
+
     }
