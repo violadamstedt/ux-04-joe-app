@@ -7,13 +7,13 @@
          sans-serif;
     }
 
-    ul {
+    .content_header ul {
          list-style: none;
          padding: 0;
          margin: 0;
     }
 
-    li:hover {
+    .content_header li:hover {
          background-color: #252525;
     }
 
@@ -168,13 +168,6 @@
          background-color: pink;
     }
 
-    .logo_forside {
-         margin: 0px;
-         padding-top: 5%;
-         max-width: 100%;
-         text-align: center;
-    }
-
     .bmc img {
          width: 60%;
          height: auto;
@@ -220,8 +213,6 @@
          text-align: center;
          width: 500px;
          height: auto;
-         ;
-         background-color: lightgreen;
          flex-grow: 1;
     }
 
@@ -229,25 +220,35 @@
          text-align: center;
          width: 500px;
          height: auto;
-         background-color: palevioletred;
          flex-grow: 1;
     }
 
     .cont_B {
+         list-style: inside;
          text-align: center;
          width: 500px;
          height: auto;
-         background-color: steelblue;
          flex-grow: 1;
     }
+
 
     .cont_C {
          text-align: center;
          width: 500px;
          height: auto;
-         background-color: mediumpurple;
          flex-grow: 1;
     }
+
+    .cont_C a:link,
+    a:visited {
+         background-color: #252525;
+         color: white;
+         padding: 14px 25px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+    }
+
 
     .rows {
          padding-top: 30px;
@@ -280,35 +281,16 @@
     }
 
     .forside_parent {
-         width: 80%;
          padding-top: 50px;
          margin: auto;
          display: flex;
-         flex-wrap: wrap;
-         justify-content: center;
-
     }
 
-
-
-    box_1 {
-         margin: auto;
-         padding: 20px;
-         height: 300px;
-         text-align: center;
-         background-color: pink;
-
+    .scrum_img img {
+         margin: 5px;
+         width: 30%;
+         height: 30%;
     }
-
-    box_2 {
-         margin: auto;
-         margin-right: 20px;
-         height: 300px;
-         text-align: center;
-         background-color: pink;
-
-    }
-
 
     box_3 {
          margin: auto;
