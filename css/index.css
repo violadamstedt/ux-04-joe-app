@@ -136,17 +136,16 @@
 
     .aof-box {
          padding-top: 50px;
-         margin: auto;
          display: flex;
-         justify-content: center;
     }
 
     .content_1 {
          margin: auto;
          width: 30%;
-         height: 300px;
+         height: auto;
          text-align: center;
          background-color: pink;
+         align-self: flex-end;
 
 
     }
@@ -154,18 +153,25 @@
     .content_2 {
          margin: auto;
          width: 30%;
-         height: 300px;
+         height: auto;
          text-align: center;
          background-color: pink;
+         align-self: flex-end;
+
+    }
+
+    .content_2 img {
+         width: 610px;
 
     }
 
     .content_3 {
          margin: auto;
          width: 30%;
-         height: 300px;
+         height: auto;
          text-align: center;
          background-color: pink;
+         align-self: flex-end;
     }
 
     .bmc img {
@@ -299,4 +305,10 @@
          text-align: center;
          background-color: pink;
 
+    }
+
+    .cont_A img {
+         margin: 5px;
+         width: 95%;
+         height: auto;
     }
