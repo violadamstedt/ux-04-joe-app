@@ -3,7 +3,8 @@
          padding: 0px;
          margin: 0px;
          width: 100%;
-         font-family: 'Karla', sans-serif;
+         font-family: 'Karla',
+         sans-serif;
     }
 
     ul {
@@ -28,6 +29,8 @@
          width: 50%;
          margin: auto;
          text-align: left;
+         padding-bottom: 25px;
+         line-height: 1.4;
     }
 
     /* --------------------
@@ -43,6 +46,7 @@
          float: right;
          border: solid 1px #212121;
          border-bottom: 1px solid rgba(255, 255, 255, .1);
+         z-index: 1;
     }
 
     .content_nav > li {
@@ -272,5 +276,45 @@
          margin: auto;
          padding: 0;
 
+
+    }
+
+    .forside_parent {
+         width: 80%;
+         padding-top: 50px;
+         margin: auto;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+
+    }
+
+
+
+    box_1 {
+         margin: auto;
+         padding: 20px;
+         height: 300px;
+         text-align: center;
+         background-color: pink;
+
+    }
+
+    box_2 {
+         margin: auto;
+         margin-right: 20px;
+         height: 300px;
+         text-align: center;
+         background-color: pink;
+
+    }
+
+
+    box_3 {
+         margin: auto;
+         margin-right: 20px;
+         height: 300px;
+         text-align: center;
+         background-color: pink;
 
     }
